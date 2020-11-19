@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 variable "loc" {
     description = "Default Azure region"
     default     =   "westeurope"
@@ -15,5 +11,5 @@ variable "tags" {
 }
 
 variable "webapplocs" {
-    default     = [ "eastus", "eastus2", "westus" ]
+    default     = [ ]
 }
